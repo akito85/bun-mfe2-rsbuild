@@ -1,6 +1,8 @@
 import './App.css';
 // The remote component provided by federation_provider
 import ProviderButton from 'federation_provider/button';
+import ProviderCard from 'federation_provider/card';
+
 
 const App = () => {
   return (
@@ -9,6 +11,7 @@ const App = () => {
       <p>Start building amazing things with Rsbuild.</p>
       <div>
         <ProviderButton />
+        <ProviderCard></ProviderCard>
       </div>
     </div>
   );

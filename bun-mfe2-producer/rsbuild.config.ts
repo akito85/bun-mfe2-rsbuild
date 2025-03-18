@@ -9,6 +9,7 @@ export default defineConfig({
       name: 'federation_provider',
       exposes: {
         './button': './src/button.tsx',
+        './card': './src/card.tsx',
       },
       shared: ['react', 'react-dom'],
     }),
